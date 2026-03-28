@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <title>Tenant Register</title>
@@ -15,64 +16,58 @@
 
         <!-- Header -->
         <div class="text-center mb-6">
-            <h2 class="text-2xl font-bold text-white">Create Your Tenant</h2>
-            <p class="text-slate-300 text-sm mt-2">
-                Launch your own subdomain in seconds
-            </p>
+            <h2 class="text-2xl font-bold text-white">Create Your Account</h2>
+
         </div>
 
         <!-- Form -->
-       <form method="POST" action="/register" class="space-y-4">
-    @csrf
+        <form method="POST" action="/register" class="space-y-4">
+            @csrf
 
-    <!-- Tenant Name -->
-    <div>
-        <label class="text-sm text-slate-300">Tenant Name</label>
-        <input type="text" name="name" required
-            class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
-            placeholder="My Business">
-    </div>
+            <!-- Tenant Name -->
+            <div>
+                <label class="text-sm text-slate-300">Tenant Name</label>
+                <input type="text" name="name" required
+                    class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
+                    placeholder="My Business">
+            </div>
 
-    <!-- Subdomain -->
-    <div>
-        <label class="text-sm text-slate-300">Subdomain</label>
-        <input type="text" name="subdomain" required
-            class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
-            placeholder="nurul">
+            <!-- Subdomain -->
+            <div>
+                <label class="text-sm text-slate-300">Subdomain</label>
+                <input type="text" name="subdomain" required
+                    class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
+                    placeholder="nurul">
 
-        <p class="text-xs text-slate-400 mt-1">
-            Your URL: nurul.nurul.test
-        </p>
-    </div>
+                <p class="text-xs text-slate-400 mt-1">
+                    Your URL: nurul.nurul.test
+                </p>
+            </div>
 
-    <!-- Email -->
-    <div>
-        <label class="text-sm text-slate-300">Admin Email</label>
-        <input type="email" name="email" required
-            class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
-            placeholder="admin@example.com">
-    </div>
+            <!-- Email -->
+            <div>
+                <label class="text-sm text-slate-300">Admin Email</label>
+                <input type="email" name="email" required
+                    class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
+                    placeholder="admin@example.com">
+            </div>
 
-    <!-- Password -->
-    <div>
-        <label class="text-sm text-slate-300">Password</label>
-        <input type="password" name="password" required
-            class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
-            placeholder="••••••••">
-    </div>
+            <!-- Password -->
+            <div>
+                <label class="text-sm text-slate-300">Password</label>
+                <input type="password" name="password" required
+                    class="w-full mt-1 px-4 py-3 rounded-xl bg-white/10 text-white border border-white/10 focus:ring-2 focus:ring-indigo-500"
+                    placeholder="••••••••">
+            </div>
 
-    <button type="submit"
-        class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold">
-        Create Tenant
-    </button>
-</form>
-
-        <!-- Footer -->
-        <p class="text-center text-xs text-slate-400 mt-6">
-            Multi-Tenant SaaS System • Powered by Laravel
-        </p>
+            <button type="submit"
+                class="w-full py-3 rounded-xl bg-indigo-600 hover:bg-indigo-500 text-white font-semibold">
+                Create Account
+            </button>
+        </form>
 
     </div>
 
 </body>
+
 </html>
