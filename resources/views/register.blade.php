@@ -41,7 +41,7 @@
             placeholder="nurul">
 
         <p class="text-xs text-slate-400 mt-1">
-            Your URL: nurul.exampleapp.test
+            Your URL: nurul.nurul.test
         </p>
     </div>
 

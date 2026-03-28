@@ -14,7 +14,7 @@
 
         <!-- Header -->
         <div class="text-center mb-6">
-            <h2 class="text-2xl font-bold text-white">🔐 Welcome Back</h2>
+            <h2 class="text-2xl font-bold text-white">Login</h2>
             <p class="text-slate-300 text-sm mt-2">
                 Login to your tenant dashboard
             </p>
@@ -47,10 +47,7 @@
             </button>
         </form>
 
-        <!-- Footer -->
-        <p class="text-center text-xs text-slate-400 mt-6">
-            Multi-Tenant SaaS Login System
-        </p>
+    
 
     </div>
 

@@ -19,7 +19,6 @@ class TenantMiddleware
             abort(404);
         }
 
-        // 🔥 Set tenant database
         Config::set('database.connections.tenant.database', $tenant->database);
 
         DB::purge('tenant');
